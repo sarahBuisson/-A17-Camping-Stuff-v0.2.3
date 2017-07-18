@@ -1,6 +1,6 @@
 # -A17-Camping-Stuff-v0.2.3
 Nandonalt's Camping Stuff v0.2.3 updated to a17
-Sourced from steam wiht the following changes:
+Sourced from steam with the following changes:
 
 Removed the references to Microsoft.CSharp and System.Net.Http and setting .net target to 3.5 (these may just be my visual studio adding stuff on me)
 Changed 'stringToLines' to 'StringToLines' on CompTargetable_Tent.cs lines 53 & 195
@@ -12,4 +12,4 @@ Changed CompPackTent.cs lines 153-164 to:
   nodoor = false;
   thingList2[i].Destroy(DestroyMode.Vanish);
 
-Unsure of lisenceing info, as Nandonalt didn't originally publish anything in that respect.
+Unsure of licenseing info, as Nandonalt didn't originally publish anything in that respect.
