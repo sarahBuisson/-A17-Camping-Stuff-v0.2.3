@@ -13,3 +13,9 @@ Changed CompPackTent.cs lines 153-164 to:
   thingList2[i].Destroy(DestroyMode.Vanish);
 
 Unsure of licenseing info, as Nandonalt didn't originally publish anything in that respect.
+
+To install a non-workshop Rimworld mod:
+1. Go to your RimWorld install folder (by windows default its C:\Program Files (x86)\Steam\steamapps\common\RimWorld) and open the "Mods" folder.
+2. Copy the "Nandonalt_CampingStuff-a17" folder from the zip to the Mods folder (DO NOT put it inside Core)
+3. After that run Rimworld and "Camping Stuff" will show up in your mod list (again) with a little folder icon next to it.
+4. From there it should be just like anyother workshop item
