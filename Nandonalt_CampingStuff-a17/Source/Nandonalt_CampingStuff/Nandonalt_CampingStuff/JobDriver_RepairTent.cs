@@ -45,8 +45,8 @@ namespace Nandonalt_CampingStuff
             {
                 initAction = delegate
                 {
+                    this.TargetA.Thing.HitPoints = this.TargetA.Thing.HitPoints + this.Cloth.stackCount;
                     this.Cloth.Destroy(DestroyMode.Vanish);
-                    this.TargetA.Thing.HitPoints = this.TargetA.Thing.HitPoints + this.Cloth.stackCount;     
                     if(this.TargetA.Thing.HitPoints > this.TargetA.Thing.MaxHitPoints)
                     {
                         this.TargetA.Thing.HitPoints = this.TargetA.Thing.MaxHitPoints;
